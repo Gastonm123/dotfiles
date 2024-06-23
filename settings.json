@@ -1,0 +1,83 @@
+{
+    "html.autoClosingTags": false,
+    "editor.minimap.enabled": false,
+    "remote.SSH.remotePlatform": {
+        "45.56.108.208": "linux",
+        "192.168.1.252": "linux",
+        "192.168.1.250": "linux",
+        "gaston.hlx.sh": "linux"
+    },
+    "git.confirmSync": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.lineNumbers": "relative",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "debug.onTaskErrors": "abort",
+    "scm.diffDecorations": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.matchBrackets": "never",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.showTabs": "single",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu-18.04 (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu-18.04"
+            ]
+        }
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2,
+    "workbench.editor.empty.hint": "hidden",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Shades of Purple",
+    "editor.renderWhitespace": "none",
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.guides.indentation": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "haskell.hlint.executablePath": "C:\\Users\\Gaston\\AppData\\Roaming\\local\\bin\\hlint.exe",
+    "haskell.toolchain": {
+        "ghc": "9.8.2",
+        "cabal": "recommended",
+        "hls": "2.7.0.0",
+        "stack": "2.15.5",
+    },
+    "haskell.trace.server": "messages",
+    "haskell.logFile": "C:\\ghcup\\VSCode-log.txt",
+    "haskell.manageHLS": "GHCup"
+}
